@@ -20,3 +20,6 @@ h2 em{text-shadow:0 1px 0 #42040a}
 .brand-logo{display:flex;align-items:center;justify-content:flex-start;flex-shrink:0;width:160px;height:100%}
 .brand-logo img{display:block;width:auto;height:84px;max-width:100%;object-fit:contain}
 @media(max-width:760px){.brand-logo{width:130px}.brand-logo img{height:68px}}
+
+.brand-logo img{width:160px;height:auto;max-height:80px}
+@media(max-width:760px){.brand-logo img{width:130px;height:auto;max-height:64px}}
